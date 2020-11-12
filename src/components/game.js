@@ -13,14 +13,14 @@ class Game extends Component {
     alert: "Click an image to start."
   };
 
+
+
+
   handleClick = (event) => {
     // Getting the value and name of the input which triggered the change
     var id = event.target.id;
-    
     // Updating the state
-    
-
-    
+    var ran = 0;
     for (var i = 0; i < this.state.clicks.length; i++) {
       if (id === this.state.clicks[i]) {
         // this.setState({
@@ -28,14 +28,17 @@ class Game extends Component {
         // });
         this.setState({ endGame: true });
         console.log(this.state.endGame);
-      }
+        ran = 1;
+      } 
     }
-    
-    console.log(id);
-    
-    this.state.clicks.push(id);
-    console.log(this.state.clicks);
+    if (ran === 0) {
+      this.setState({ score: this.state.score + 1 });
+      this.state.clicks.push(id);
+    } 
   };
+
+  
+
 
   render() {
     return (

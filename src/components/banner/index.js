@@ -1,8 +1,10 @@
-import React from "react";
-import "./style.css";
+// import React from "react";
+// import "./style.css";
 
-function Header(props) {
-  return <div className="nav">{props.children}</div>;
-}
+// function Header(props) {
+//   return <div className="nav">
+      
+//   </div>;
+// }
 
-export default Header;
+// export default Header;
