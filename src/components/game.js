@@ -10,24 +10,31 @@ class Game extends Component {
     data: Shapes,
     clicks: [],
     endGame: false,
-    alert: "Click an image to start",
+    alert: "Click an image to start."
   };
 
   handleClick = (event) => {
     // Getting the value and name of the input which triggered the change
-    const id = event.target.id;
-
+    var id = event.target.id;
+    
     // Updating the state
+    
+
+    
+    for (var i = 0; i < this.state.clicks.length; i++) {
+      if (id === this.state.clicks[i]) {
+        // this.setState({
+        //   alert: "You have already selected this image. Game Over",
+        // });
+        this.setState({ endGame: true });
+        console.log(this.state.endGame);
+      }
+    }
+    
     console.log(id);
+    
     this.state.clicks.push(id);
     console.log(this.state.clicks);
-
-    if (this.state.clicks.includes(id)) {
-      this.setState({
-        alert: "You have already selected this image. Game Over",
-      });
-      this.setState({ endGame: true });
-    }
   };
 
   render() {

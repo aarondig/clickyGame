@@ -1,47 +1,38 @@
 [
   {
     "id": 1,
-    "clicked": "false",
     "image": "https://www.europeanceo.com/wp-content/uploads/2017/12/businesses_adopting_minimalism.jpg"
   },
   {
     "id": 2,
-    "clicked": "false",
     "image": "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1553287602197-R2B39P80V3IROJRE898K/ke17ZwdGBToddI8pDm48kJB_XQ3Dc5SllUdWbukQo69Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx6nEhjlnWL4Jp2yRUKnAHfAtKyAEGaEsOmaOT_zZoS2TtcLgPBsTCXYa-xKfKtauE/minimalist-blogs.jpg?format=750w"
   },
   {
     "id": 3,
-    "clicked": "false",
     "image": "https://images.unsplash.com/photo-1527567018838-584d3468eb85?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max"
   },
   {
     "id": 4,
-    "clicked": "false",
     "image": "https://www.creativeboom.com/uploads/articles/ac/ac87f0bcb92f4d380eba91e09e957733062fd94b_1100.jpg"
   },
   {
     "id": 5,
-    "clicked": "false",
     "image": "https://cdn.shopify.com/s/files/1/1192/7874/files/Minimalist_Living_-_How_to_Declutter_Your_Life_2048x2048.jpg?v=1529470251"
   },
   {
     "id": 6,
-    "clicked": "false",
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Minimalism......_%2822969073683%29.jpg"
   },
   {
     "id": 7,
-    "clicked": "false",
     "image": "https://images.iphonephotographyschool.com/10266/1120/Minimalist-iPhone-Photos-30.jpg"
   },
   {
     "id": 8,
-    "clicked": "false",
     "image": "https://www.listenmoneymatters.com/wp-content/uploads/2014/11/LMM-Cover-Images-6.jpg"
   },
   {
     "id": 9,
-    "clicked": "false",
     "image": "https://images.unsplash.com/photo-1487260211189-670c54da558d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
   }
 ]
