@@ -1,0 +1,7 @@
+.navbar {
+    position: absolute;
+    width: 60%;
+}
+.navbar .title{
+    text-align: left;
+}
