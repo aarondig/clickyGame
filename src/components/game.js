@@ -46,7 +46,6 @@ shuffle = function() {
   
 // }
 this.state.data.sort(() => Math.random() - 0.5);
-console.log(this.state.data);
 }
 
 
@@ -65,7 +64,6 @@ console.log(this.state.data);
     return (
       <Wrapper>
         <Banner score={this.state.score} highscore={this.state.highscore}/>
-        <h1 className="title">Shape Memory Game</h1>
         <Cards data={this.state.data} handleClick={this.handleClick} />
       </Wrapper>
     );
