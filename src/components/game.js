@@ -45,7 +45,7 @@ shuffle = function() {
   
   
 // }
-this.state.data.sort(() => (Math.random() - 1));
+this.state.data.sort(() => Math.random() - 0.1);
 console.log(this.state.data);
 }
 
