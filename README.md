@@ -24,7 +24,7 @@ This game uses REACT to display a grid of images with onClick event listeners th
 
 ## Test
 
-[Deployed Link](#https://aarondig.github.io/clickyGame/)
+[Deployed Link](https://aarondig.github.io/clickyGame/)
 
 ## Usage
 
